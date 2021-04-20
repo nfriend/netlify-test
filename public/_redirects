@@ -1,1 +1,2 @@
 /test/*/path /:splat 301
+/old/path/1  /1      200
