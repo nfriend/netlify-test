@@ -1,2 +1,6 @@
-/test/*/path /:splat 301
-/old/path/1  /1      200
+/test/*/path                        /:splat 301
+/old/path/1                         /1      200
+/splat/at/end/*                     /1      200
+/splat/in/*/middle                  /1      200
+/placeholder/at/end/:placeholder    /1      200
+/placeholder/in/:placeholder/middle /1      200
