@@ -5,3 +5,4 @@
 /placeholder/at/end/:placeholder    /1      200
 /placeholder/in/:placeholder/middle /1      200
 /a/:splat/path                      /1      200
+/a/path/with///multiple             /1      200
