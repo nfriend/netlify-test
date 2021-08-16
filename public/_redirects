@@ -1,10 +1,11 @@
-/test/*/path                        /:splat 301
-/old/path/1                         /1      200
-/splat/at/end/*                     /1      200
-/splat/in/*/middle                  /1      200
-/placeholder/at/end/:placeholder    /1      200
-/placeholder/in/:placeholder/middle /1      200
-/a/:splat/path                      /1      200
-/a/path/with///multiple             /1      200
-/a/different/splat*path             /1      200
-:placeholder/test                   /1      200
+# /test/*/path                        /:splat 301
+# /old/path/1                         /1      200
+# /splat/at/end/*                     /1      200
+# /splat/in/*/middle                  /1      200
+# /placeholder/at/end/:placeholder    /1      200
+# /placeholder/in/:placeholder/middle /1      200
+# /a/:splat/path                      /1      200
+# /a/path/with///multiple             /1      200
+# /a/different/splat*path             /1      200
+# :placeholder/test                   /1      200
+/* /1 200
