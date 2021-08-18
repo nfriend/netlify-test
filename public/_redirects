@@ -13,3 +13,4 @@
 /a/path/:placeholder/with/multiple/:placeholder /:placeholder 301
 /test/:placeholder                    /:placeholder/:placeholder 301
 */global /1 200
+/z /:splat 301
