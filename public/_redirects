@@ -10,3 +10,5 @@
 # :placeholder/test                   /1      200
 # /* /1.html 200
 /another/*/test/*/path                /:splat 301
+/a/path/:placeholder/with/multiple/:placeholder /:placeholder 301
+/test/:placeholder                    /:placeholder/:placeholder 301
