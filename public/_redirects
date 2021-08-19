@@ -1,6 +1,7 @@
-/slash/before/splat/* /1         200
-/:splat/in/from       /1         200
-/placeholder/in/to    /foo/*/bar 301
+/slash/before/splat/* /1          200
+/:splat/in/from       /1          200
+/placeholder/in/to    /foo/*/bar  301
+/foo/                 /qux/:splat 301
 
 # /test/*/path                                    /:splat                    301
 # /old/path/1                                     /1                         200
